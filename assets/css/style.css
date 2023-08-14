@@ -35,7 +35,21 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(11, 29, 29);
+}
 
+#menu {
+    text-size:100%;
+    letter-spacing: 4px;
+    font-weight:lighter;
+    list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: 1rem;
+}
+
+.active {
+    border-bottom: 1px solid rgb(14, 52, 52);
 }
  /*Main*/
  main {

@@ -26,6 +26,17 @@ body {
     box-shadow: 0 12px 1px .5px rgba(1, 70, 70, 0.315);
  }
 
+ header a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(11, 29, 29);
+
+}
  /*Main*/
  main {
     background-color:darkcyan;

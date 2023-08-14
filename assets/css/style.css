@@ -94,9 +94,31 @@ nav {
  /* Media query: large or landscape phones (576px and up) */
  @media screen and (min-width: 576px) {
  }
-/* Media query: large or landscape phones (768px and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    nav {
+        display:block;
+        position:relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    
+    #menu {
+        display:flex;
+    }
+
+    #menu > li {
+        padding-right: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
-/* Media query: large or landscape phones (992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+}
+/* Large devices (laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
 }

@@ -22,7 +22,7 @@ body {
     position:fixed;
     padding: 0 1rem;
     z-index: 99;
-    width:100%;
+    width: 100%;
     box-shadow: 0 12px 1px .5px rgba(1, 70, 70, 0.315);
     display: flex;
     justify-content: space-between;
@@ -37,22 +37,21 @@ body {
     color: inherit;
  }
 
-
- h1 {
+h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(11, 29, 29);
+    color: #3a3a3a;
 }
 
 #menu {
-    font-size:100%;
+    font-size: 100%;
     letter-spacing: 4px;
     font-weight:lighter;
-    list-style-type: none;
+    list-style: none;
     text-decoration: none;
 }
 
-#menu li {
+#menu > li {
     margin-bottom: 1rem;
 }
 
@@ -64,12 +63,12 @@ body {
 nav {
     position: absolute;
     background-color: seashell;
-    width:100%;
-    left:0;
+    width: 100%;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 12px 1px .5px rgba(1, 70, 70, 0.315);
     display: none;
-    top:100%;
+    top: 100%;
 }
 
 /* Nav toggle */
@@ -84,17 +83,36 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
- /*Main*/
- main {
-    background-color:rgb(155, 239, 239);
-     /* Enlarge main element to push footer down*/
-     flex: 1 0 auto;
-     margin-top: 75px;
- }
+	/* Main content */
+    main {
+        /* Enlarge main element to push footer down*/
+        flex: 1 0 auto;
+        /* Add margin at the top to prevent content from being covered by the header */
+        margin-top: 47px;
+        /* Enable flex properties for child elements */
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(155, 239, 239);
+    }
+ 
  /*Footer*/
  footer {
     background-color:darkcyan;
  }
+
+ #social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
  /* Media query: large or landscape phones (576px and up) */
  @media screen and (min-width: 576px) {
@@ -106,7 +124,7 @@ nav {
         position:relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-left: 1rem;
     }
     
     #menu {
@@ -125,12 +143,12 @@ nav {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
-        padding:0;
+        padding: 0;
     }
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
-        margin-top: 150px;
+        margin-top: 79px;
 }
 }
 /* Large devices (laptops and desktops, 992px and up) */

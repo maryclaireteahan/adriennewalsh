@@ -28,14 +28,12 @@ body {
     justify-content: space-between;
     align-items: baseline;
     text-decoration: none;
-
-    
- }
+}
 
  header a {
     text-decoration: none;
     color: inherit;
- }
+}
 
 h1 {
     text-transform: uppercase;
@@ -83,8 +81,9 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-	/* Main content */
-    main {
+
+/* Main content */
+main {
         /* Enlarge main element to push footer down*/
         flex: 1 0 auto;
         /* Add margin at the top to prevent content from being covered by the header */
@@ -93,25 +92,32 @@ nav {
         display: flex;
         flex-direction: column;
         background-color:rgb(155, 239, 239);
-    }
+}
  
- /*Footer*/
- footer {
-    background-color:darkcyan;
+#hero {
+        height: 600px;
+        width: 100%;
+        background: url("../") /**no-repeat center center/cover;**/
+        position: relative;
+}
+
+/*Footer*/
+footer {
+        background-color:darkcyan;
  }
 
  #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+        font-size: 160%;
+        padding: 5%;
+        color: cyan;
 }
 
  /* Media query: large or landscape phones (576px and up) */
@@ -119,35 +125,35 @@ nav {
  }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    nav {
+nav {
         display:block;
         position:relative;
         box-shadow: none;
         width: fit-content;
         padding-left: 1rem;
-    }
+}
     
-    #menu {
+#menu {
         display:flex;
-    }
+}
 
-    #menu > li {
+#menu > li {
         padding-right: 1rem;
-    }
+}
 
-    .nav-toggle-label {
+.nav-toggle-label {
         display: none;
-    }
+}
 
-    #logo {
+#logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
         padding: 0;
-    }
-    /* Main content */
-    main {
-    /* Push main content down to accommodate larger header */
+}
+/* Main content */
+main {
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
 }
 }

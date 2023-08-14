@@ -1,3 +1,24 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
-</style>
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+ /* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ /*Header*/
+ header {
+    background-color: darkcyan;
+ }
+
+ /*Main*/
+ main {
+    background-color:seashell;
+ }
+
+ /*Footer*/
+ footer {
+    background-color:aquamarine;
+ }

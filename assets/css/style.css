@@ -90,3 +90,13 @@ nav {
  footer {
     background-color:darkcyan;
  }
+
+ /* Media query: large or landscape phones (576px and up) */
+ @media screen and (min-width: 576px) {
+ }
+/* Media query: large or landscape phones (768px and up) */
+@media screen and (min-width: 768px) {
+}
+/* Media query: large or landscape phones (992px and up) */
+@media screen and (min-width: 992px) {
+}

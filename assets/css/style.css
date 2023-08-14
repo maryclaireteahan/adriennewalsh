@@ -27,12 +27,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    text-decoration: none;
+
+    
  }
 
  header a {
     text-decoration: none;
     color: inherit;
  }
+
 
  h1 {
     text-transform: uppercase;
@@ -45,6 +49,7 @@ body {
     letter-spacing: 4px;
     font-weight:lighter;
     list-style-type: none;
+    text-decoration: none;
 }
 
 #menu li {
@@ -125,11 +130,14 @@ nav {
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 150px;
 }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
 /* Large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {

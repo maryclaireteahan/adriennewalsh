@@ -81,9 +81,10 @@ nav {
 }
  /*Main*/
  main {
-    background-color:darkcyan;
+    background-color:rgb(155, 239, 239);
      /* Enlarge main element to push footer down*/
      flex: 1 0 auto;
+     margin-top: 80px;
  }
 
 

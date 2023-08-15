@@ -120,6 +120,37 @@ main {
 
 }
 
+/*About me*/
+#my-info {
+    width: 90%;
+    margin: 20px auto;
+}
+#my-info #about-me {
+    position:absolute;
+    right:0;
+    top:117%;
+}
+#about-me {
+    background-color: rgba(46, 99, 99, 0.5) ;
+    border-radius: 5px 0 0 5px;
+    color: seashell;
+    bottom: 100px;
+    min-height: 300px;
+    width: 70%;
+    text-align: left;
+    padding: 20px 10px 10px; 
+    letter-spacing: 1px;
+}
+
+#about-me p{
+    padding-top:30px;
+}
+#about-me-image img{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+
 /*Actor*/
 #cover-text-actor {
     text-align: left;
@@ -146,7 +177,11 @@ main {
 }
 #actor-list { 
     padding-left: 40px; 
-list-style-image: url(../list-icon/centos.svg);}
+    list-style-image: url(../list-icon/centos.svg);
+}
+/*Costume*/
+/*Gallery*/
+/*Contact*/
 /*Footer*/
 footer {
         background-color:darkcyan;

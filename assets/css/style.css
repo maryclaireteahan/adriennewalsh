@@ -87,26 +87,26 @@ nav {
 
 /* Main content */
 main {
-        /* Enlarge main element to push footer down*/
-        flex:1 0 auto;
-        /* Add margin at the top to prevent content from being covered by the header */
-        margin-top:-10px;
-        /* Enable flex properties for child elements */
-        display: flex;
-        flex-direction: column;
-        background-color:rgb(155, 239, 239);
-        padding-bottom: 0;
-        margin-bottom: 0;
+    /* Enlarge main element to push footer down*/
+    flex:1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top:-10px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(155, 239, 239);
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
  /*Hero image and cover text*/
 #hero {
-        height: 600px;
-        width: 100%;
-        background: url("../images/acting/box3.webp")  no-repeat top center/cover;
-        position: relative;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        flex:auto;
+    height: 600px;
+    width: 100%;
+    background: url("../images/acting/box3.webp")  no-repeat top center/cover;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    flex:auto;
 }
 #cover-text-hero {
     text-align: left;
@@ -114,16 +114,14 @@ main {
     color: seashell;
     font-size: 160%;
     position: absolute;
-    bottom: 180px;
     width: 60%;
     border-radius: 0 5px 5px 0;
-    min-height: 200px;
+    min-height: 135px;
     padding: 40px 10px 0px 10px;
-    top:50%;
-
+    top:10%;
 }
 
-/*About me*/
+/*About me----------------------------------About me--------------------------------About me-------------------------------------------------------------------------------------*/
 #my-info {
     width: 90%;
     margin: 20px auto;
@@ -146,18 +144,23 @@ main {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+#about-me h2{ 
+}
+
 #about-me p{
     padding-top:30px;
 }
+
 #my-info img{
     max-width: 300px;
     max-height: 300px;
     border-radius: 5px;
     box-shadow: 0 2px 2px #3a3a3a;
-
 }
 
-/*Actor*/
+/*Actor----------------------------Actor-------------------------------Actor-----------------------------------Actor---------------------------------*/
+
+
 #cover-text-actor {
     text-align: left;
     background-color: rgba(46, 99, 99, 0.8) ;
@@ -166,25 +169,25 @@ main {
     position: absolute;
     bottom: 100px;
     width: 60%;
-    border-radius: 0 5px 5px 0;
     min-height: 400px;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-bottom: 40px;
+    padding: 40px 40px 0px 10px;
     box-shadow: 0 2px 2px #3a3a3a;
+    border-radius: 0 5px 5px 0;
 }
 
-#cover-text-actor h2 {
+#actor {
+    padding-bottom: 5px;
+}
+#cover-text-actor hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 #about-me p{
     padding-top:30px;
 }
 
-#actor {
-    padding-bottom: 5px;
 
-}
-#actor-span {
+#actor-roles {
     position: absolute;
     padding-top: 5px;
     line-height: 1px;
@@ -200,12 +203,11 @@ main {
     position:absolute;
     float:right;
     bottom: 100px;
-    left: 775px;
+    left: 840px;
     top: 50px;
     box-shadow: 0 2px 2px #3a3a3a;
-
 }
-/*Costume*/
+/*Costume--------------------------------------Costume--------------------------Costume---------------------------------------------------------------------*/
 #my-costume {
     width: 90%;
     margin: 20px auto;
@@ -237,7 +239,7 @@ main {
 
 }
 
-/*Gallery*/
+/*Gallery---------------------------------Gallery------------------------------Gallery-----------------------------------------------------------------------------*/
 /*Contact*/
 #contact {
     background-color: rgba(60, 60, 60, 0.6);
@@ -294,7 +296,7 @@ main {
     border-radius: 5px;
 
 }
-/*Footer*/
+/*Footer---------------------Footer--------------------Footer-------------------------Footer----------------------------------------------------------------*/
 footer {
         background-color:darkcyan;
         padding-top: 0;

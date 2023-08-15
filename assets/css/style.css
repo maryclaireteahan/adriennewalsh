@@ -142,6 +142,7 @@ main {
     text-align: left;
     padding: 20px 10px 10px; 
     letter-spacing: 1px;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #about-me p{
@@ -151,6 +152,8 @@ main {
     max-width: 300px;
     max-height: 300px;
     border-radius: 5px;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 /*Actor*/
@@ -167,6 +170,8 @@ main {
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 40px;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 #actor {
     padding-bottom: 5px;
@@ -188,6 +193,8 @@ main {
     position:absolute;
     float:left;
     bottom: 100px;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 /*Costume*/
 #my-costume {
@@ -222,6 +229,61 @@ main {
 
 /*Gallery*/
 /*Contact*/
+#contact {
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    bottom: 100px;
+    min-height: 300px;
+    width: 45%;
+}
+
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+
+#contact-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background-color: rgba(60, 60, 60, 0.6);
+    color: #fafafa;
+    width: 50%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+.text-input-box {
+    background-color: rgba(60, 60, 60, 0.6);
+    color: #fafafa;
+    width: 50%;
+    height: 100px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: darkcyan;
+    color: #fafafa;
+    border-radius: 5px;
+
+}
 /*Footer*/
 footer {
         background-color:darkcyan;
@@ -235,6 +297,8 @@ footer {
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
+        box-shadow: 0 2px 2px #ec4545;
+
 }
 
 #social-networks i {

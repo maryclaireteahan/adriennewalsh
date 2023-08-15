@@ -106,6 +106,7 @@ main {
         position: relative;
         padding-bottom: 0;
         margin-bottom: 0;
+        flex:auto;
 }
 #cover-text-hero {
     text-align: left;
@@ -171,9 +172,14 @@ main {
     padding-left: 10px;
     padding-bottom: 40px;
     box-shadow: 0 2px 2px #3a3a3a;
-    
-
 }
+
+#cover-text-actor h2 {
+}
+#about-me p{
+    padding-top:30px;
+}
+
 #actor {
     padding-bottom: 5px;
 
@@ -221,15 +227,13 @@ main {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-#costume p {
-    padding-top:30px;
-}
-
 #my-costume img{
     max-width: 300px;
     max-height: 300px;
     border-radius: 5px;
     box-shadow: 0 2px 2px #3a3a3a;
+    position:absolute;
+    float:right;
 
 }
 

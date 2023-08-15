@@ -166,11 +166,12 @@ main {
     bottom: 100px;
     width: 60%;
     border-radius: 0 5px 5px 0;
-    min-height: 200px;
+    min-height: 400px;
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 40px;
     box-shadow: 0 2px 2px #3a3a3a;
+    
 
 }
 #actor {
@@ -187,12 +188,14 @@ main {
     list-style-image: url(../list-icon/centos.svg);
 }
 #actor-image > img {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 300px;
     border-radius: 5px;
     position:absolute;
-    float:left;
+    float:right;
     bottom: 100px;
+    left: 775px;
+    top: 50px;
     box-shadow: 0 2px 2px #3a3a3a;
 
 }
@@ -204,7 +207,6 @@ main {
 #my-costume #costume {
     position:absolute;
     right:0;
-    top:%;
 }
 #costume {
     background-color: rgba(46, 99, 99, 0.8) ;
@@ -216,15 +218,19 @@ main {
     text-align: left;
     padding: 20px 10px 10px; 
     letter-spacing: 1px;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
-#costume p{
-
+#costume p {
+    padding-top:30px;
 }
+
 #my-costume img{
     max-width: 300px;
     max-height: 300px;
     border-radius: 5px;
+    box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 /*Gallery*/

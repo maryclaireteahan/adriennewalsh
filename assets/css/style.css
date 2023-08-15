@@ -93,7 +93,7 @@ main {
         flex-direction: column;
         background-color:rgb(155, 239, 239);
 }
- 
+ /*Hero image and cover text*/
 #hero {
         height: 600px;
         width: 100%;
@@ -110,10 +110,37 @@ main {
     width: 60%;
     border-radius: 0 5px 5px 0;
     min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 40px 40px 0px 10px;
+
 }
 
+/*Actor*/
+#cover-text-actor {
+    text-align: left;
+    background-color: rgba(46, 99, 99, 0.5) ;
+    color: seashell;
+    font-size: 100%;
+    position: absolute;
+    bottom: 100px;
+    width: 60%;
+    border-radius: 0 5px 5px 0;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+#actor {
+    padding-bottom: 5px;
+
+}
+#actor-span {
+    position: absolute;
+    padding-top: 5px;
+    line-height: 1px;
+}
+#actor-list { 
+    padding-left: 40px; 
+list-style-image: url(../list-icon/centos.svg);}
 /*Footer*/
 footer {
         background-color:darkcyan;
@@ -144,6 +171,7 @@ nav {
         box-shadow: none;
         width: fit-content;
         padding-left: 1rem;
+        padding-top:30px;
 }
     
 #menu {

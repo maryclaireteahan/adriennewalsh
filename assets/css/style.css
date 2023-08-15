@@ -69,6 +69,7 @@ nav {
   /*  box-shadow: 0 12px 1px .5px rgba(1, 70, 70, 0.315);*/
     display: none;
     top: 100%;
+    bottom:90%;
 }
 
 /* Nav toggle */
@@ -108,15 +109,16 @@ main {
 }
 #cover-text-hero {
     text-align: left;
-    background-color: rgba(46, 99, 99, 0.5) ;
+    background-color: rgba(46, 99, 99, 0.8) ;
     color: seashell;
     font-size: 160%;
     position: absolute;
-    bottom: 30px;
+    bottom: 180px;
     width: 60%;
     border-radius: 0 5px 5px 0;
     min-height: 200px;
-    padding: 40px 40px 0px 10px;
+    padding: 40px 10px 0px 10px;
+    top:50%;
 
 }
 
@@ -131,7 +133,7 @@ main {
     top:117%;
 }
 #about-me {
-    background-color: rgba(46, 99, 99, 0.5) ;
+    background-color: rgba(46, 99, 99, 0.8) ;
     border-radius: 5px 0 0 5px;
     color: seashell;
     bottom: 100px;
@@ -145,7 +147,7 @@ main {
 #about-me p{
     padding-top:30px;
 }
-#about-me-image img{
+#my-info img{
     max-width: 300px;
     max-height: 300px;
     border-radius: 5px;
@@ -154,7 +156,7 @@ main {
 /*Actor*/
 #cover-text-actor {
     text-align: left;
-    background-color: rgba(46, 99, 99, 0.5) ;
+    background-color: rgba(46, 99, 99, 0.8) ;
     color: seashell;
     font-size: 100%;
     position: absolute;
@@ -179,7 +181,45 @@ main {
     padding-left: 40px; 
     list-style-image: url(../list-icon/centos.svg);
 }
+#actor-image > img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 5px;
+    position:absolute;
+    float:left;
+    bottom: 100px;
+}
 /*Costume*/
+#my-costume {
+    width: 90%;
+    margin: 20px auto;
+}
+#my-costume #costume {
+    position:absolute;
+    right:0;
+    top:%;
+}
+#costume {
+    background-color: rgba(46, 99, 99, 0.8) ;
+    border-radius: 5px 0 0 5px;
+    color: seashell;
+    bottom: 100px;
+    min-height: 300px;
+    width: 70%;
+    text-align: left;
+    padding: 20px 10px 10px; 
+    letter-spacing: 1px;
+}
+
+#costume p{
+
+}
+#my-costume img{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+
 /*Gallery*/
 /*Contact*/
 /*Footer*/

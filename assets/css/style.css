@@ -58,6 +58,9 @@ h1 {
 .active {
     border-bottom: 1px solid rgb(14, 52, 52);
 }
+.hidden-heading {
+    visibility:hidden;
+}
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -186,7 +189,6 @@ main {
     padding-top:30px;
 }
 
-
 #actor-roles {
     position: absolute;
     padding-top: 5px;
@@ -216,11 +218,14 @@ main {
     position:absolute;
     right:0;
 }
+#costume p{
+    padding-top:30px;
+}
 #costume {
     background-color: rgba(46, 99, 99, 0.8) ;
     border-radius: 5px 0 0 5px;
     color: seashell;
-    bottom: 100px;
+    bottom: 150px;
     min-height: 300px;
     width: 70%;
     text-align: left;
@@ -228,7 +233,6 @@ main {
     letter-spacing: 1px;
     box-shadow: 0 2px 2px #3a3a3a;
 }
-
 #my-costume img{
     max-width: 300px;
     max-height: 300px;
@@ -236,10 +240,20 @@ main {
     box-shadow: 0 2px 2px #3a3a3a;
     position:absolute;
     float:right;
-
+    bottom:180px;
+    left: 45px;
 }
 
 /*Gallery---------------------------------Gallery------------------------------Gallery-----------------------------------------------------------------------------*/
+#photos img {
+    width:30%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*Contact*/
 #contact {
     background-color: rgba(60, 60, 60, 0.6);
@@ -249,21 +263,15 @@ main {
     min-height: 300px;
     width: 45%;
 }
-
-
 #contact-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
-
-
 #contact-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
-
 .text-input {
     background-color: rgba(60, 60, 60, 0.6);
     color: #fafafa;
@@ -284,8 +292,6 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
-
-
 .send-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -294,7 +300,6 @@ main {
     background-color: darkcyan;
     color: #fafafa;
     border-radius: 5px;
-
 }
 /*Footer---------------------Footer--------------------Footer-------------------------Footer----------------------------------------------------------------*/
 footer {

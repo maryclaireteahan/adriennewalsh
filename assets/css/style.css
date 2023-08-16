@@ -132,14 +132,61 @@
      top: 10%;
  }
 
- /*About me----------------------------------About me--------------------------------About me-------------------------------------------------------------------------------------*/
+ /*Index-------------------------------------Index-----------------------------------Index---------------------------------------------------------------------------------------*/
  #my-info {
+    display: flex;
+    flex-direction: row-reverse ;
+    align-items: center;
+    justify-content: space-between;
+}
+#info-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row ;
+
+
+}
+ #info-text {
+    background-color: rgba(46, 99, 99, .8);
+    width: 60%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    border-radius: 5px 0 0 5px;
+    color: seashell;
+    padding: 20px 10px;
+    font-size: 100%;
+    margin-top: 40px;
+    min-height: 300px;
+    margin:40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float:right;
+
+}
+#info-text h2 {
+    display:block;
+}
+#info-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+#info-image > img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+/*#my-info {
      width: 90%;
      margin: 20px auto;
  }
 
  #my-info #about-me {
-     /*position: absolute;*/
+     /*position: absolute;
      right: 0;
      top: 117%;
  }
@@ -168,7 +215,7 @@
      max-height: 300px;
      border-radius: 5px;
      box-shadow: 0 2px 2px #3a3a3a;
- }
+ }*/
 
  /*Actor-------------------------------------Actor-----------------------------------Actor----------------------------------------------------------------------------------------*/
  #my-actor {
@@ -191,7 +238,7 @@
 
  }
 
- #cover-text-actor {
+ #actor-text {
      background-color: rgba(46, 99, 99, .8);
      width: 60%;
      box-shadow: 0 2px 2px #3a3a3a;
@@ -274,7 +321,7 @@
  }
 */
  /*Costume-----------------------------------Costume---------------------------------Costume--------------------------------------------------------------------------------------*/
- #cover-text-costume {
+ #costume-text {
     background-color: rgba(46, 99, 99, 0.8);
     color: seashell;
     border-radius: 5px;
@@ -290,7 +337,7 @@
     padding-top: 30px;
     max-height: 300px;
 }
-#cover-text-costume h2 {
+#costume-text h2 {
     display:block;
 }
 
@@ -356,10 +403,15 @@ hr {
  #photos img {
      width: 30%;
      line-height: 1em;
+     row-gap: 0;
+     padding:1% 0;
  }
 
  #photos {
      line-height: 0;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap:wrap;
  }
 
  /*Contact-----------------------------------Contact---------------------------------Contact--------------------------------------------------------------------------------------*/

@@ -187,6 +187,8 @@
      max-height: 300px;
      border-radius: 5px;
      box-shadow: 0 2px 2px #3a3a3a;
+     margin-top: 40px;
+
  }
 
  #cover-text-actor {
@@ -197,6 +199,7 @@
      color: seashell;
      padding: 20px 10px;
      font-size: 100%;
+     margin-top: 40px;
  }
  #actor-list {
     padding-top: 10px;

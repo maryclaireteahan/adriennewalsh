@@ -138,14 +138,6 @@
      justify-content: space-evenly;
  }
 
- #info-div {
-     display: flex;
-     justify-content: space-between;
-     flex-direction: row;
-
-
- }
-
  #info-text {
      background-color: rgba(46, 99, 99, .8);
      width: 60%;
@@ -158,15 +150,18 @@
      min-height: 300px;
      margin: 40px 0 40px auto;
      order: 2;
-     align-content: right;
- }
+     letter-spacing: 1px;
 
- #info-text h2 {
-     display: block;
  }
+ #info {
+    padding-top: 30px;
+    max-height: 300px;
+
+
+}
 
  #info-image {
-    margin: 40px 0 40px auto;
+     margin: 40px 0 40px auto;
      display: flex;
      align-items: center;
      order: 1;
@@ -246,6 +241,8 @@
      padding: 20px 10px;
      font-size: 100%;
      margin-top: 40px;
+     letter-spacing: 1px;
+
  }
 
  #actor-list {
@@ -331,6 +328,8 @@
      margin: 40px auto;
      padding: 20px 10px;
      font-size: 100%;
+     letter-spacing: 1px;
+
  }
 
  #costume {
@@ -431,6 +430,8 @@
      color: #ffffff;
      background-color: rgba(60, 60, 60, 0.6);
      padding: 30px;
+     letter-spacing: 1px;
+
  }
 
  #contact-form>h2 {
@@ -447,6 +448,8 @@
      border: 1px solid #fafafa;
      border-radius: 2px;
      padding: 0 5px;
+     letter-spacing: 1px;
+
  }
 
  .text-input-box {
@@ -458,6 +461,8 @@
      border: 1px solid #fafafa;
      border-radius: 2px;
      padding: 0 5px;
+     letter-spacing: 1px;
+
  }
 
  .send-button {
@@ -468,6 +473,8 @@
      background-color: darkcyan;
      color: #fafafa;
      border-radius: 5px;
+     letter-spacing: 1px;
+
  }
 
  /*Footer------------------------------------Footer----------------------------------Footer---------------------------------------------------------------------------------------*/

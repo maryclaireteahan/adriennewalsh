@@ -276,15 +276,24 @@
      display: flex;
      justify-content: space-around;
      flex-wrap: wrap;
+    
  }
+
  #photos img {
-    width: 30%;
-    line-height: 1em;
-    padding: 1% 0;
-}
-#photos img:hover {
-    scale: 110%;
-}
+     width: 30%;
+     line-height: 1em;
+     padding: 1% 0;
+     box-shadow: 0 2px 2px #3a3a3a;
+     border-radius: 5px;
+     margin:10.125px auto;
+     padding: 0;
+
+ }
+
+ #photos img:hover {
+     scale: 110%;
+ }
+
  /*Contact-----------------------------------Contact---------------------------------Contact--------------------------------------------------------------------------------------*/
  #contact {
      padding: 20px 10% 0 10%;
@@ -294,7 +303,7 @@
      width: 100%;
      display: flex;
      flex-direction: row;
-     justify-content:space-evenly;
+     justify-content: space-evenly;
  }
 
  #contact-form {

@@ -666,12 +666,13 @@
 
      /*Contact 320px-----------------------------------Contact 320px---------------------------------Contact 320px--------------------------------------------------------------------------------------*/
      #my-contact {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-    }
-     #contact-form {
+         display: flex;
+         justify-content: space-evenly;
+         flex-direction: column;
+         align-items: center;
+     }
+
+    /* #contact-form {
          color: #ffffff;
          background-color: rgba(46, 99, 99, 0.8);
          padding: 30px;
@@ -682,20 +683,34 @@
          box-shadow: 0 2px 2px #3a3a3a;
          width: 100%;
          border-radius: 5px;
-         margin:0;
+         margin: 0;
      }
 
      #contact-text {
-            width: 80%;
-            display: block;
-            align-content: center;
-            margin: 40px auto;
-            padding: 20px 10px;
-            min-height: 300px;
-            margin: 120px 40px 40px;
-        }
-     }
-
+         width: 80%;
+         display: block;
+         align-content: center;
+         margin: 40px auto;
+         padding: 20px 10px;
+         min-height: 300px;
+         margin: 120px 40px 40px;
+     }*/
+     #contact-form {
+        color: #ffffff;
+        background-color: rgba(46, 99, 99, 0.8);
+        letter-spacing: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0 2px 2px #3a3a3a;
+        border-radius: 5px;
+        width: 80%;
+        align-content: center;
+        margin: 40px auto;
+        padding: 20px 10px;
+        min-height: 300px;
+        margin: 120px 40px 40px 32px;
+    }
      #contact-form>h2 {
          color: #fafafa;
          margin-bottom: 20px;

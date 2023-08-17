@@ -38,25 +38,31 @@
     <!--Main-->
     <main>
         <section id="contact">
-            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+            <div>
+                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2> Send a message!</h2>
-                <label for="first-name">First Name:</label>
+              <div> <label for="first-name">First Name:</label>
                 <input type="text" placeholder="Your First Name" name="first-name" id="first-name" class="text-input"
-                    required>
+                    required></div> 
                 <br>
-                <label for="last-name">Last Name:</label>
+                <div>   <label for="last-name">Last Name:</label>
                 <input type="text" placeholder="Your Last Name" name="last-name" id="last-name" class="text-input"
-                    required>
+                    required></div> 
                 <br>
-                <label for="email-address">Email Address:</label>
+                <div>   <label for="email-address">Email Address:</label>
                 <input type="email" placeholder="Your Email" name="email-address" id="email-address" class="text-input"
-                    required>
+                    required></div> 
                 <br>
-                <label for="message">Send a message:</label>
+                <div>  <label for="message">Send a message:</label>
                 <textarea placeholder="Your Message" name="message" id="message" class="text-input-box" required
-                    rows="10" cols="40"></textarea>
-                <button type="submit" class="send-button">Send</button>
+                    rows="10" cols="40"></textarea></div>  
+                    <div>   <button type="submit" class="send-button">Send</button> </div>
             </form>
+            </div>
+            <div id="contact-image">
+                <img src="assets/images/headshots/headshot3.jpg"
+                    alt="Adrienne as Fabiana Aziza Cunningham in The Last days of Judas Iscariot">
+            </div>
         </section>
     </main>
     <!--Footer-->

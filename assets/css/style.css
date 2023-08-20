@@ -139,6 +139,7 @@
      margin-top: 70px;
  }
 
+ /*About Adrienne content*/
  #my-info {
      display: flex;
      justify-content: space-evenly;
@@ -165,6 +166,7 @@
      max-height: 700px;
  }
 
+ /*image headshot1*/
  #info-image {
      margin: 0 80px 30px;
      display: flex;
@@ -180,6 +182,7 @@
  }
 
  /*Actor-------------------------------------Actor-----------------------------------Actor----------------------------------------------------------------------------------------*/
+/*Actor content*/
  #my-actor {
      display: flex;
      justify-content: space-evenly;
@@ -216,6 +219,7 @@
      list-style-image: url(../list-icon/centos.svg);
  }
 
+/*image judas1*/
  #actor-image {
      padding: 0 20px 40px;
      align-self: center;
@@ -231,7 +235,7 @@
 
 
  /*Costume-----------------------------------Costume---------------------------------Costume--------------------------------------------------------------------------------------*/
-
+ /*costume content*/
  #my-costume {
      display: flex;
      justify-content: space-evenly;
@@ -261,6 +265,7 @@
      max-height: 700px;
  }
 
+ /*images rebirth1, menace2, box2*/
  #costume-image {
      display: flex;
      justify-content: space-evenly;
@@ -277,6 +282,7 @@
  }
 
  /*Gallery-----------------------------------Gallery---------------------------------Gallery--------------------------------------------------------------------------------------*/
+/* images box1, menace1, rebirth2, urinetown, box4, menace2*/
  #my-gallery {
      display: flex;
      justify-content: space-evenly;
@@ -307,13 +313,13 @@
  }
 
  /*Contact-----------------------------------Contact---------------------------------Contact--------------------------------------------------------------------------------------*/
+ /*contact form*/
  #my-contact {
      display: flex;
      justify-content: space-evenly;
      flex-direction: column;
      align-items: center;
      background: url('../images/acting/menace2.webp') no-repeat center center/cover;
-
  }
 
  #contact-form {
@@ -373,6 +379,7 @@
      border: 0;
  }
 
+ /* image headshot2*/
  #contact-image {
      display: none;
  }
@@ -404,7 +411,6 @@
  @media screen and (min-width: 576px) {
 
      /*Costume 576px-----------------------------------Costume 576px---------------------------------Costume 576px--------------------------------------------------------------------------------------*/
-
      #costume-image {
          display: flex;
          flex-direction: unset;
@@ -413,7 +419,6 @@
      }
 
      /*Contact 576px-----------------------------------Contact 576px---------------------------------Contact 576px--------------------------------------------------------------------------------------*/
-
      #contact-image {
          display: none;
      }
@@ -423,8 +428,6 @@
  @media screen and (min-width: 768px) {
      nav {
          display: block;
-         /*position: relative;*/
-         /*   box-shadow: none;*/
          width: fit-content;
          padding-left: 1rem;
          padding-top: 45px;
@@ -457,19 +460,18 @@
          display: flex;
          align-items: flex-end;
      }
-     #logo{
-        font-size: 300%;
+
+     #logo {
+         font-size: 300%;
      }
 
      /*Actor 768px-----------------------------------Actor 768px---------------------------------Actor 768px--------------------------------------------------------------------------------------*/
-
      #actor-image>img {
          max-width: 500px;
          max-height: 500px;
      }
 
      /*Contact 768px-----------------------------------Contact 768px---------------------------------Contact 768px--------------------------------------------------------------------------------------*/
-
      #my-contact {
          display: flex;
          justify-content: space-evenly;
@@ -650,7 +652,6 @@
          margin: 40px 20px 40px 0;
      }
 
-
      /*Costume 992px-----------------------------------Costume 992px---------------------------------Costume 992px--------------------------------------------------------------------------------------*/
 
      #costume-text {
@@ -668,7 +669,6 @@
          display: flex;
          justify-content: space-around;
          flex-wrap: wrap;
-
      }
 
      #photos img {
@@ -679,7 +679,6 @@
          border-radius: 5px;
          margin: 10.125px auto;
          padding: 0;
-
      }
 
      #photos img:hover {
@@ -806,7 +805,6 @@
      }
 
      /*Contact 1200px-----------------------------------Contact 1200px---------------------------------Contact 1200px--------------------------------------------------------------------------------------*/
-
      #my-contact {
          display: flex;
          justify-content: space-evenly;

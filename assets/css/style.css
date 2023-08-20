@@ -582,10 +582,10 @@
 
      /*Index 992px-------------------------------------Index 992px-----------------------------------Index 992px---------------------------------------------------------------------------------------*/
      #my-info {
-         display: flex;
-         justify-content: space-evenly;
-         flex-direction: row;
-     }
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
 
      #info-text {
          background-color: rgba(46, 99, 99, .8);
@@ -774,7 +774,7 @@
          flex-direction: row;
          justify-content: flex-start;
          align-items: center;
-         margin-top: 80px
+         margin-top: 0;
      }
 
      #actor-image {

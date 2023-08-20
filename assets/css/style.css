@@ -53,8 +53,6 @@
      border-bottom: 1px solid #3a3a3a;
  }
 
-
-
  /*Header 320px ------------------------------------Header 320px----------------------------------Header 320px---------------------------------------------------------------------------------------*/
  header {
      background-color: seashell;
@@ -182,7 +180,7 @@
  }
 
  /*Actor-------------------------------------Actor-----------------------------------Actor----------------------------------------------------------------------------------------*/
-/*Actor content*/
+ /*Actor content*/
  #my-actor {
      display: flex;
      justify-content: space-evenly;
@@ -219,7 +217,7 @@
      list-style-image: url(../list-icon/centos.svg);
  }
 
-/*image judas1*/
+ /*image judas1*/
  #actor-image {
      padding: 0 20px 40px;
      align-self: center;
@@ -282,7 +280,7 @@
  }
 
  /*Gallery-----------------------------------Gallery---------------------------------Gallery--------------------------------------------------------------------------------------*/
-/* images box1, menace1, rebirth2, urinetown, box4, menace2*/
+ /* images box1, menace1, rebirth2, urinetown, box4, menace2*/
  #my-gallery {
      display: flex;
      justify-content: space-evenly;
@@ -542,7 +540,7 @@
      }
  }
 
- /* Large devices (laptops and desktops, 992px and up) -----------------------------------------------992---------------------------------------------------------------------------- */
+ /* Large devices (laptops and desktops, 992px and up) -----------------------------------------------992px---------------------------------------------------------------------------- */
  @media screen and (min-width: 992px) {
      #menu a:hover {
          border-bottom: 1px solid #3a3a3a;
@@ -686,125 +684,6 @@
      }
 
      /*Contact 992px-----------------------------------Contact 992px---------------------------------Contact 992px--------------------------------------------------------------------------------------*/
-     #contact {
-         padding: 20px 10% 0 10%;
-         flex-grow: 1;
-         bottom: 100px;
-         min-height: 300px;
-         width: 100%;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-between;
-     }
-
-     #contact-form {
-         color: #ffffff;
-         background-color: rgba(46, 99, 99, 0.8);
-         padding: 30px;
-         letter-spacing: 1px;
-         display: flex;
-         flex-direction: column;
-         justify-content: space-around;
-         box-shadow: 0 2px 2px #3a3a3a;
-         margin: 10px;
-         width: 100%;
-     }
-
-     #contact-form div {
-         display: flex;
-         flex-direction: column;
-         justify-content: space-around;
-     }
-
-     #contact-form>h2 {
-         color: #fafafa;
-         margin-bottom: 20px;
-     }
-
-     .text-input {
-         background-color: rgba(46, 99, 99, 0.8);
-         color: #fafafa;
-         width: 100%;
-         height: 25px;
-         margin: 5px 0 10px 0;
-         border: 1px solid #fafafa;
-         border-radius: 2px;
-         padding: 0 5px;
-         letter-spacing: 1px;
-     }
-
-     .text-input-box {
-         background-color: rgba(46, 99, 99, 0.8);
-         color: #fafafa;
-         width: 100%;
-         height: 100px;
-         margin: 5px 0 20px 0;
-         border: 1px solid #fafafa;
-         border-radius: 2px;
-         padding: 0 5px;
-         letter-spacing: 1px;
-     }
-
-     .send-button {
-         margin-top: 20px;
-         padding: 15px 32px;
-         font-size: 100%;
-         background-color: darkcyan;
-         color: #fafafa;
-         box-shadow: 0 2px 2px #3a3a3a;
-         letter-spacing: 1px;
-         border: 0;
-     }
-
-     #contact-image {
-         align-self: center;
-         display: flex;
-         justify-content: center;
-     }
-
-     #contact-image>img {
-         max-width: 500px;
-         max-height: 400px;
-         border-radius: 5px;
-         box-shadow: 0 2px 2px #3a3a3a;
-         margin-top: 40px;
-     }
-
- }
-
- /* Large devices (laptops and desktops, 1200px and up) -----------------------------------------------1200--------------------------------------------------------------------------- */
- @media screen and (min-width: 1200px) {
-
-     /*Actor 1200px-------------------------------------Actor 1200px-----------------------------------Actor 1200px----------------------------------------------------------------------------------------*/
-     #my-actor {
-         display: flex;
-         flex-direction: row;
-         justify-content: flex-start;
-         align-items: center;
-         margin-top: 80px
-     }
-
-     #actor-image {
-         margin-left: 40px;
-     }
-
-     #actor-image>img {
-         max-width: 400px;
-         max-height: 300px;
-         border-radius: 5px;
-         box-shadow: 0 2px 2px #3a3a3a;
-         margin-top: 40px;
-     }
-
-     #actor-text {
-         background-color: rgba(46, 99, 99, .8);
-         width: 60%;
-         border-radius: 0 5px 5px 0;
-         padding: 20px 10px;
-         margin: 40px 30px 40px 0;
-     }
-
-     /*Contact 1200px-----------------------------------Contact 1200px---------------------------------Contact 1200px--------------------------------------------------------------------------------------*/
      #my-contact {
          display: flex;
          justify-content: space-evenly;
@@ -883,5 +762,38 @@
          border-radius: 5px;
          box-shadow: 0 2px 2px #3a3a3a;
          margin: 0 0 40px;
+     }
+ }
+
+ /* Large devices (laptops and desktops, 1200px and up) -----------------------------------------------1200--------------------------------------------------------------------------- */
+ @media screen and (min-width: 1200px) {
+
+     /*Actor 1200px-------------------------------------Actor 1200px-----------------------------------Actor 1200px----------------------------------------------------------------------------------------*/
+     #my-actor {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: center;
+         margin-top: 80px
+     }
+
+     #actor-image {
+         margin-left: 40px;
+     }
+
+     #actor-image>img {
+         max-width: 400px;
+         max-height: 300px;
+         border-radius: 5px;
+         box-shadow: 0 2px 2px #3a3a3a;
+         margin-top: 40px;
+     }
+
+     #actor-text {
+         background-color: rgba(46, 99, 99, .8);
+         width: 60%;
+         border-radius: 0 5px 5px 0;
+         padding: 20px 10px;
+         margin: 40px 30px 40px 0;
      }
  }

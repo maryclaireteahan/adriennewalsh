@@ -259,7 +259,7 @@
 
  #costume {
      padding-top: 30px;
-     max-height: 800px;
+     min-height: 800px;
  }
 
  /*images rebirth1, menace2, box2*/
@@ -413,6 +413,12 @@
          flex-direction: unset;
          margin: 20px auto;
          flex-wrap: wrap;
+     }
+
+     #costume {
+        padding-top: 30px;
+        max-height: 800px;
+        min-height:0;
      }
 
      /*Contact 576px-----------------------------------Contact 576px---------------------------------Contact 576px--------------------------------------------------------------------------------------*/

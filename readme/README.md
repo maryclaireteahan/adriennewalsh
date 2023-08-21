@@ -150,7 +150,7 @@ Getting started with your Portfolio Projects can be daunting, planning your proj
 THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but its primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, the location and opening hours of the business.
 Adrienne Walsh is a site that showcases Adrienne's acting and costume design skills, experience, and achievements. It is a way to present her to potential casting directors, agents, and producers who might be interested in casting her as an actor in theatre, film or radio or hiring her as costume designer, assistant or maintanence for their projects.
 
-![Mockup](documentation/supp-images/resp-mockup.png)
+![Mockup](../readme/documentation/supp-images/resp-mockup.png)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -167,19 +167,18 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
     -   #### A. First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Adrienne as an actor and costume designer.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to be able to easily navigate to and view a menu of drinks and snacks.
-        4. As a First Time Visitor, I want to be able to easily find where the organisation is located.
+        3. As a First Time Visitor, I want to be able to easily navigate to and view Adrienne's past acting roles and experience with costume design.
+        4. As a First Time Visitor, I want to be able to easily see what Adrienne looks like and pictures of past roles and costume designs.
 
     -   #### B. Returning Visitor Goals
 
         1. As a Returning Visitor, I want to be able to access and view the menu quickly and easily.
-        2. As a Returning Visitor, I want to be able to check opening times quickly and easily.
-        3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
+        3. As a Returning Visitor, I want to be able to contact Adrienne.
 
     -   #### C. Frequent User Goals
-        1. As a Frequent User, I want to be able to sign-up easily for discounts.
+        1. As a Frequent User, I want to be able to access Adrienne's social media platforms.
      
 
 ## Features
@@ -188,14 +187,14 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 -   __F01 Navigation Bar__
 
-    - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
+    - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, and the menu options: Home page, Actor page, Costume page, Gallery page and Contact page and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the menu options are hidden until a burger icon is clicked which then brings up the menu options.
 
       ![Navbar](documentation/supp-images/f01-nav-bar.png)
     
 
 -   __F02 Landing Page image and call to action__
 
-    - The landing area includes a photograph and a text overlay that together clearly identify the purpose of the business and the type of product it sells.  The citrus colours and 'welcome' message are intended to be appealing to the user and convey a sense of health, freshness and friendliness.
+    - The landing area includes a background photograph and a text overlay that together clearly identify Adrienne, both what she looks like and her profession. 
 
     - A large bright "See Our Menu" button is placed central to the screen as an eye-catching call to action which gives the user an obvious quick route to the menu page.
 

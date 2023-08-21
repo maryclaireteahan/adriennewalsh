@@ -12,14 +12,6 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-
 
 
 <h1 align="center">Adrienne Walsh Website</h1>
@@ -109,14 +101,14 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
     - The gallery feature six pictures. Each picture is of a show that Adrienne has either acted in or designed costumes for or both. The pictures from different angles give a good scope of her range of talent for prospective employers that may visit the site.
 
       ![Gallery1](/readme/documentation/supp-images/gallery1.png)
-
       ![Gallery2](/readme/documentation/supp-images/gallery2.png)
 
 - __F08 Contact Page - 'Send a message!'__
 
     - The 'Send a message!' panel of the Contact page allows the user to send a message/give feedback to Adrienne and if they want. The user is asked to provide their first name, last name and email address when sending a message. Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
 
-    ![Contact Page](/readme/documentation/supp-images/contact.png)
+    ![Contact Page1](/readme/documentation/supp-images/contact1.png)
+    ![Contact Page2](/readme/documentation/supp-images/contact2.png)
 
 
 - __How these features support the User Stories__
@@ -127,12 +119,8 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 ### Features which could be implemented in the future
 
-- __Company Timeline__
-    - A 'Company Timeline' page could be added to provide more information on the evolution of the business for users who would like to know more about the origins of the company, its ethos and its involvement with the community.
-
-- __Navigation bar improvements__
-    - The functionality of the navigation bar could be extended to make it "sticky" so that it would be available to the user without scrolling.
-    - A hamburger menu could be implemented to save space on smaller screens.
+- __Demo Reel__
+    -  A video of Adrienne's demo reel would give prospective employers more insight into her abilities as an actress. 
 
 ## Design
 
@@ -189,7 +177,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 ### Validator Testing
 
-- [HTML Validator](https://validator.w3.org/)
+- No errors were returned when passing through the official [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
       ![HTML results index](/readme/documentation/supp-images/indexval.png)
@@ -202,7 +190,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
     - result for contact.html
       ![HTML results contact](/readme/documentation/supp-images/contactval.png)
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- No errors were returned when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for styles.css 
       ![CSS results 1](/readme/documentation/supp-images/cssval.png)

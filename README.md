@@ -180,21 +180,21 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 - No errors were returned when passing through the official [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
-      ![HTML results index](/readme/documentation/supp-images/indexval.png)
+      ![HTML results index](/readme/documentation/supp-images/validator/indexval.png)
     - result for actor.html
-      ![HTML results actor](/readme/documentation/supp-images/actorval.png)
+      ![HTML results actor](/readme/documentation/supp-images/validator/actorval.png)
     - result for costume.html
-      ![HTML results costume](/readme/documentation/supp-images/costumeval.png)
+      ![HTML results costume](/readme/documentation/supp-images/validator/costumeval.png)
     - result for gallery.html
-      ![HTML results gallery](/readme/documentation/supp-images/galleryval.png)
+      ![HTML results gallery](/readme/documentation/supp-images/validator/galleryval.png)
     - result for contact.html
-      ![HTML results contact](/readme/documentation/supp-images/contactval.png)
+      ![HTML results contact](/readme/documentation/supp-images/validator/contactval.png)
 
 - No errors were returned when passing through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for styles.css 
-      ![CSS results 1](/readme/documentation/supp-images/cssval.png)
-      ![CSS results 2](/readme/documentation/supp-images/csswarning.png)
+      ![CSS results 1](/readme/documentation/supp-images/validator/cssval.png)
+      ![CSS results 2](/readme/documentation/supp-images/validator/csswarning.png)
 
       The warning is due to import of the Google fonts.
 

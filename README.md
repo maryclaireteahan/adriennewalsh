@@ -1,20 +1,7 @@
 # ADRIENNE WALSH
 
 
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
-
-
-<h1 align="center">Adrienne Walsh Website</h1>
+<h1 align="center">Adrienne Walsh</h1>
 
 [View the live project here](https://maryclaireteahan.github.io/adriennewalsh/)
 
@@ -202,34 +189,54 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 Scores for mobile devices:
 
+Home Page
 ![Home mob](/readme/documentation/supp-images/performance/home-performance-mob.png)
+
+Actor Page
 ![Actor mob](/readme/documentation/supp-images/performance/actor-performance-mob.png)
+
+Costume Page
 ![Costume mob](/readme/documentation/supp-images/performance/costume-performance-mob.png)
+
+Gallery Page
 ![Gallery mob](/readme/documentation/supp-images/performance/gallery-performance-mob.png)
+
+Contact Page
 ![Contact mob](/readme/documentation/supp-images/performance/contact-performance-mob.png)
 
 Scores for desktop devices:
 
+Home Page
 ![Home desktop](/readme/documentation/supp-images/performance/home-performance-desk.png)
+
+Actor Page
 ![Actor desktop](/readme/documentation/supp-images/performance/actor-performance-desk.png)
+
+Costume Page
 ![Costume desktop](/readme/documentation/supp-images/performance/costume-performance-desktop.png)
+
+Gallery Page
 ![Gallery desktop](/readme/documentation/supp-images/performance/gallery-performance-desktop.png)
+
+Contact Page
 ![Contact desktop](/readme/documentation/supp-images/performance/contact-performance-desktop.png)
-
-
 
 ### Browser Compatibility
 
 - Testing has been carried out on the following browsers :
-    - Chrome Version
-    - Firefox Version
-    - Edge Version 
+    - Chrome 
+    - Firefox 
+    - Edge  
     
 ### Test Cases and Results
 
-- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click to open iamge):
+- Page sizes from 320px-1200px
 
-  ![Test Results](documentation/supp-images/test-cases.png)
+- Each navigation link on every page was tested to ensure user is routed to correct page
+- All external links (social icons) open up a new browser tab that routes the user to the relevant page
+test repeated for each social link on each subsequent page
+- Contact form prevents user from submitting empty
+upon submission, contact form gives user feedback of successful submission.
 
 ### Unfixed bugs
 
@@ -246,12 +253,15 @@ As far as I am aware there are no unfixed bugs on my site.
 
   The live link can be found here - [ADRIENNE WALSH](https://maryclaireteahan.github.io/adriennewalsh/) 
 
-### How to clone the repository
+### How to clone the repository and push initial commit
 
 - Go to the https://github.com/maryclaireteahan/adriennewalsh repository on GitHub 
 - Click the "Code" button to the right of the screen, click HTTPs and copy the link there
 - Open a GitBash terminal and navigate to the directory where you want to locate the clone
 - On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+- git add .
+- git commit -m "Initial commit"
+- git push
  
 ## Credits 
 

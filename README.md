@@ -235,7 +235,7 @@ Contact Page
     
 ### Test Cases and Results
 
-- Page sizes from 320px-1200px
+- Page sizes from 320px-1920px
 
 - Each navigation link on every page was tested to ensure user is routed to correct page
 - All external links (social icons) open up a new browser tab that routes the user to the relevant page

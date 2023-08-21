@@ -32,7 +32,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 Adrienne Walsh is a site that showcases Adrienne's acting and costume design skills, experience, and achievements. It is a way to present her to potential casting directors, agents, and producers who might be interested in casting her as an actor in theatre, film or radio or hiring her as costume designer, assistant or maintanence for their projects.
 
-![Mockup](../readme/documentation/supp-images/resp-mockup.png)
+![Mockup](/readme/documentation/supp-images/resp-mockup.png)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -71,62 +71,62 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
     - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, and the menu options: Home page, Actor page, Costume page, Gallery page and Contact page and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the menu options are hidden until a burger icon is clicked which then brings up the menu options.
 
-      ![Navbar1](../readme/documentation/supp-images/navbar1.png)
-      ![Navbar2](../readme/documentation/supp-images/navbar2.png)
+      ![Navbar1](/readme/documentation/supp-images/navbar1.png)
+      ![Navbar2](/readme/documentation/supp-images/navbar2.png)
     
 
 -   __F02 Landing Page image and call to action__
 
     - The landing area includes a background photograph and a text overlay that together clearly identify Adrienne, both what she looks like and her profession. 
 
-      ![Landing Area](../readme/documentation/supp-images/hero.png)
+      ![Landing Area](/readme/documentation/supp-images/hero.png)
 
 - __F03 About Adrienne__
 
     - This section of text introduces the user to Adrienne with background knowledge of Adrienne that is basic yet still relevant to her acting and costume design experience. 
 
-      ![About Adrienne](../readme/documentation/supp-images/info.png)
+      ![About Adrienne](/readme/documentation/supp-images/info.png)
 
 - __F04 Footer__
 
     - The footer is featured on all five pages and is identical on each page making it easy to use.  It contains links to Adrienne's social media accounts, facebook, twitter, youtube, instagram and linkedin. The links are represented by favicon images of those sites' own logos.
     
-      ![Footer](../readme/documentation/supp-images/footer.png)
+      ![Footer](/readme/documentation/supp-images/footer.png)
 
 - __F05 Actor Page__
 
     - This section of text gives the user to deeper with background of Adrienne's experience in acting. It informs the user of Adrienne's qualifications in theatre. It also features a list of her most recent roles as well as an image of her on stage in a previous role she has played.
 
-      ![Actor Page](../readme/documentation/supp-images/actor.png)
+      ![Actor Page](/readme/documentation/supp-images/actor.png)
 
 - __F06 Costume Page__
 
     - This page of text gives the user to deeper with background of Adrienne's experience in costume design. It informs the user of Adrienne's qualifications in fashion and graphic design as well as past projects in which she has been involved. There are three pictures including showcasing costumes designs with which she has been involved.
 
-       ![Costume Page 1](../readme/documentation/supp-images/costume1.png)
+       ![Costume Page 1](/readme/documentation/supp-images/costume1.png)
         
-        ![Costume Page 2](../readme/documentation/supp-images/costume2.png)
+        ![Costume Page 2](/readme/documentation/supp-images/costume2.png)
 
 - __F07 Gallery Page__
 
     - The gallery feature six pictures. Each picture is of a show that Adrienne has either acted in or designed costumes for or both. The pictures from different angles give a good scope of her range of talent for prospective employers that may visit the site.
 
-      ![Gallery1](../readme/documentation/supp-images/gallery1.png)
+      ![Gallery1](/readme/documentation/supp-images/gallery1.png)
 
-      ![Gallery2](../readme/documentation/supp-images/gallery2.png)
+      ![Gallery2](/readme/documentation/supp-images/gallery2.png)
 
 - __F08 Contact Page - 'Send a message!'__
 
     - The 'Send a message!' panel of the Contact page allows the user to send a message/give feedback to Adrienne and if they want. The user is asked to provide their first name, last name and email address when sending a message. Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
 
-    ![Contact Page](../readme/documentation/supp-images/contact.png)
+    ![Contact Page](/readme/documentation/supp-images/contact.png)
 
 
 - __How these features support the User Stories__
 
     - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F08.  Below is a traceability matrix cross-referencing the user stories with the features, illustrating which features support which stories :
 
-    ![User Story Feature Matrix](../readme/documentation/supp-spreadsheets/ux.png)
+    ![User Story Feature Matrix](/readme/documentation/supp-spreadsheets/ux.png)
 
 ### Features which could be implemented in the future
 
@@ -145,7 +145,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 -   ### Colour Scheme
     -  The colour scheme was created by me based off of Adrienne's dress in the first image. It is subtle, but when viewed closely, there are green leaves on her dress which inspired the colours used throughout the site.
 
-        ![Colour Palette](../readme/documentation/supp-images/color-palette.png)
+        ![Colour Palette](/readme/documentation/supp-images/color-palette.png)
 
 -   ### Typography
     -   Google Fonts were used to import Oxygen font into styles.css.  It was chosen as it is a simple, font with a strong clear feel that doesn't distract from the content.
@@ -155,22 +155,22 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
     -   #### Home Page Wireframes
 
-        ![Home](../readme/documentation/wireframes/home.png)
+        ![Home](/readme/documentation/wireframes/home.png)
 
     -   #### Actor Page Wireframes
 
-        ![Actor](../readme/documentation/wireframes/actor.png))
+        ![Actor](/readme/documentation/wireframes/actor.png)
 
     -   #### Costume Page Wireframes
 
-        ![Costume](../readme/documentation/wireframes/costume.png)
+        ![Costume](/readme/documentation/wireframes/costume.png)
 
     -   #### Gallery Page Wireframes
 
-        ![Gallery](../readme/documentation/wireframes/gallery.png)    
+        ![Gallery](/readme/documentation/wireframes/gallery.png)    
         
     -   #### Contact Page Wireframes
-        ![Contact](../readme/documentation/wireframes/contact.png)
+        ![Contact](/readme/documentation/wireframes/contact.png)
 
 ## Technologies Used
 
@@ -195,15 +195,15 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 - [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
-      ![HTML results index](../readme/documentation/supp-images/indexval.png)
+      ![HTML results index](/readme/documentation/supp-images/indexval.png)
     - result for actor.html
-      ![HTML results actor](../readme/documentation/supp-images/actorval.png)
+      ![HTML results actor](/readme/documentation/supp-images/actorval.png)
     - result for costume.html
-      ![HTML results costume](../readme/documentation/supp-images/costumeval.png)
+      ![HTML results costume](/readme/documentation/supp-images/costumeval.png)
     - result for gallery.html
-      ![HTML results gallery](../readme/documentation/supp-images/galleryval.png)
+      ![HTML results gallery](/readme/documentation/supp-images/galleryval.png)
     - result for contact.html
-      ![HTML results contact](../readme/documentation/supp-images/contactval.png)
+      ![HTML results contact](/readme/documentation/supp-images/contactval.png)
 
     - Full validation results are available on github here :
 

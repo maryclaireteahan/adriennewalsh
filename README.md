@@ -192,6 +192,8 @@ Scores for mobile devices:
 Home Page
 ![Home mob](/readme/documentation/supp-images/performance/home-performance-mob.png)
 
+
+
 Actor Page
 ![Actor mob](/readme/documentation/supp-images/performance/actor-performance-mob.png)
 

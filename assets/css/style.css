@@ -207,14 +207,9 @@
  }
 
  #actor-roles {
-     padding-top: 10px;
-     line-height: 1px;
- }
-
- #actor-list {
-     padding-top: 10px;
-     padding-left: 40px;
-     list-style-image: url(../list-icon/centos.svg);
+    padding-top: 20px;
+    padding-left: 40px;
+    list-style-image: url(../list-icon/centos.svg);
  }
 
  /*image judas1*/

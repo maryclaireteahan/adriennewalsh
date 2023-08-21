@@ -98,7 +98,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 - __F07 Gallery Page__
 
-    - The gallery feature six pictures. Each picture is of a show that Adrienne has either acted in or designed costumes for or both. The pictures from different angles give a good scope of her range of talent for prospective employers that may visit the site.
+    - The gallery feature five pictures. Each picture is of a show that Adrienne has either acted in or designed costumes for or both. The pictures from different angles give a good scope of her range of talent for prospective employers that may visit the site.
 
       ![Gallery1](/readme/documentation/supp-images/gallery1.png)
       ![Gallery2](/readme/documentation/supp-images/gallery2.png)

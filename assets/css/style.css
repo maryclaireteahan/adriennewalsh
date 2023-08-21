@@ -294,6 +294,7 @@
  #photos img {
      width: 240px;
      min-height: 155px;
+     max-height: 180px;
      line-height: 1em;
      padding: 1% 0;
      box-shadow: 0 2px 2px #3a3a3a;

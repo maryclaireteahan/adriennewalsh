@@ -1,9 +1,5 @@
 # Adrienne Walsh
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
 Adrienne Walsh is a site that showcases Adrienne's acting and costume design skills, experience, and achievements. It is a way to present her to potential casting directors, agents, and producers who might be interested in casting her as an actor in theatre, film or radio or hiring her as costume designer, assitant or maintanence for their projects.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
@@ -147,7 +143,7 @@ Getting started with your Portfolio Projects can be daunting, planning your proj
 
 [View the live project here](https://maryclaireteahan.github.io/adriennewalsh/)
 
-THRIVE Juices and Smoothies is a site that advertises a fictional refreshment business.  The business primarily sells juices and smoothies and also a limited range of healthy snacks and hot beverages.  The site is targeted toward people who want to buy healthy refreshments "on the go" - the business also has a seating area for anyone who wants to stay and socialise but its primary USP is the appeal, taste and quality of the products.  The site will be useful for people who want to check out the range of products available, the location and opening hours of the business.
+
 Adrienne Walsh is a site that showcases Adrienne's acting and costume design skills, experience, and achievements. It is a way to present her to potential casting directors, agents, and producers who might be interested in casting her as an actor in theatre, film or radio or hiring her as costume designer, assistant or maintanence for their projects.
 
 ![Mockup](../readme/documentation/supp-images/resp-mockup.png)
@@ -196,39 +192,29 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
     - The landing area includes a background photograph and a text overlay that together clearly identify Adrienne, both what she looks like and her profession. 
 
-    - A large bright "See Our Menu" button is placed central to the screen as an eye-catching call to action which gives the user an obvious quick route to the menu page.
-
       ![Landing Area](../readme/documentation/supp-images/hero.png)
 
 - __F03 About Adrienne__
 
-    - The "enjoy here or takeaway - the choice is yours" tagline appears on the main page and again on the menu page to let the user know that seating is available and to help re-inforce consistency in branding.
+    - This section of text introduces the user to Adrienne with background knowledge of Adrienne that is basic yet still relevant to her acting and costume design experience. 
 
       ![About Adrienne](../readme/documentation/supp-images/info.png)
 
 - __F04 Footer__
 
-    - The company ideals are presented using 4 flip cards below the tagline on the main page.  These cards give the user more information about the organisation in relation to its strategy in the areas of quality, sourcing of ingredients, recycling and philanthropy.
+    - The footer is featured on all five pages and is identical on each page making it easy to use.  It contains links to Adrienne's social media accounts, facebook, twitter, youtube, instagram and linkedin. The links are represented by favicon images of those sites' own logos.
     
       ![Footer](../readme/documentation/supp-images/footer.png)
 
 - __F05 Actor Page__
 
-    - The footer is featured on all three pages and is identical on each page making it easy to use.  It contains three sections :
-
-        - Opening Times - having the opening times in the footer on each page allows the user to quickly and easily find this information, this is important for this type of business as it is information that the user needs in order to make use of the company (product is sold offline).
-
-        - Address - similar to the opening times, the address of this type of business is important to the user in order for them to use the company and so has been repeated on each page in the footer to allow the user to quickly and easily find out where the company is located 
-
-        - Stay in Touch - this area has links to social media sites associated with the organisation encouraging the user to keep connected.  The links will open in a new tab to allow easy navigation for the user. The organisation can use these sites to promote brand awareness and keep customers interested through updates, offers, chats and other marketing efforts. (As THRIVE is a ficticious company, the links currently just go to the social media main websites.)
+    - This section of text gives the user to deeper with background of Adrienne's experience in acting. It informs the user of Adrienne's qualifications in theatre. It also features a list of her most recent roles as well as an image of her on stage in a previous role she has played.
 
       ![Actor Page](../readme/documentation/supp-images/actor.png)
 
 - __F06 Costume Page__
 
-    - The menu page gives a list of the products that can be purchased at THRIVE.  For ease of use and clarity for the user the products have been split into three panels, one for 'Fresh Juices', one for 'Smoothies', and the third for 'Healthy Snacks and Hot Drinks'.  Pricing and ingredients are also shown.
-    
-    - For ease of use, a consistent look and feel is maintained through the use of the same background image as is used for the landing image on the main page, and in applying the same background colour to the menu panels as is used on the overlay text area on the main page.  Text colour is kept simple for readability and to minimise distraction.
+    - This page of text gives the user to deeper with background of Adrienne's experience in costume design. It informs the user of Adrienne's qualifications in fashion and graphic design as well as past projects in which she has been involved. There are three pictures including showcasing costumes designs with which she has been involved.
 
        ![Costume Page 1](../readme/documentation/supp-images/costume1.png)
         
@@ -236,7 +222,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 - __F07 Gallery Page__
 
-    - The 'Contact Us' panel of the Contact page allows the user to send a message/give feedback to the company and if they want, sign up to the company mailing list to get discount codes and offers.  The user is asked to provide their name and email address when sending a message.  By default, the option to join the mailing list is set to 'no' - to prevent them accidentally signing up for the mailing list and getting unwanted email.  Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
+    - The gallery feature six pictures. Each picture is of a show that Adrienne has either acted in or designed costumes for or both. The pictures from different angles give a good scope of her range of talent for prospective employers that may visit the site.
 
       ![Gallery1](../readme/documentation/supp-images/gallery1.png)
 
@@ -244,7 +230,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 - __F08 Contact Page - 'Send a message!'__
 
-    - The 'How to Find Us' panel of the Contact page gives the user an interactive google map showing the location of the company along with details on full address, phone number and administration email address in large font to make it easily readable.  By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
+    - The 'Send a message!' panel of the Contact page allows the user to send a message/give feedback to Adrienne and if they want. The user is asked to provide their first name, last name and email address when sending a message. Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
 
     ![Contact Page](../readme/documentation/supp-images/contact.png)
 
@@ -267,15 +253,15 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 ## Design
 
 -   ### Imagery
-    -   The hero and large background images have been chosen because they are eye-catching, fresh and bright.  The citrus and light pastel colours in the images were chosen to help convey a sense of energy, health and freshness.  The images depict fruit to align with the main business goal of selling juices and smoothies and were chosen for their "simplicity" (- e.g. a single type of fruit or repeating theme) to help keep the site clear and easy to use.
+    -   The hero image was chosen because is is eye-catching, with an obvious main focus on Adrienne. The dark colours of the blackbox theatre contrasts nicely with the soft colour palette of the site. The rest of the images used throughout the site are from a range of different shows. While the consistency between the images may vary, they are successful at visually showcasing Adrienne's experiences in acting and costume design.
 
 -   ### Colour Scheme
-    -  A citrus/pastel palette was chosen to convey a fresh, energetic mood.  The colours picked were inspired by a palette from [Lily Bug Design](https://www.lilybugdesign.co.nz/colour-wall)
+    -  The colour scheme was created by me based off of Adrienne's dress in the first image. It is subtle, but when viewed closely, there are green leaves on her dress which inspired the colours used throughout the site.
 
         ![Colour Palette](../readme/documentation/supp-images/color-palette.png)
 
 -   ### Typography
-    -   Google Fonts were used to import Lato and Oswald fonts into styles.css.  These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
+    -   Google Fonts were used to import Oxygen font into styles.css.  It was chosen as it is a simple, font with a strong clear feel that doesn't distract from the content.
 
 
 -   ### Wireframes

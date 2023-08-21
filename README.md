@@ -193,7 +193,7 @@ Home Page
 ![Home mob](/readme/documentation/supp-images/performance/home-performance-mob.png)
 
 Low score for mobile device due to larger images. I put the images through https://tinypng.com/ a number of times which did help but unfortunately it wasn't able to bring the score to the 90s. 
-There 
+There was a notice saying "A long cache lifetime can speed up repeat visits to your page. Learn more about efficient cache policies." However I wasn't able to understand lengthen the cache lifetime and am still researching on how I can do this. 
 
 Actor Page
 ![Actor mob](/readme/documentation/supp-images/performance/actor-performance-mob.png)
@@ -203,6 +203,8 @@ Costume Page
 
 Gallery Page
 ![Gallery mob](/readme/documentation/supp-images/performance/gallery-performance-mob.png)
+
+Low score for mobile device due to larger images. I put the images through https://tinypng.com/ a number of times which did help but once again, it wasn't able to bring the score to the 90s.
 
 Contact Page
 ![Contact mob](/readme/documentation/supp-images/performance/contact-performance-mob.png)

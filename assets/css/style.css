@@ -207,9 +207,9 @@
  }
 
  #actor-roles {
-    padding-top: 20px;
-    padding-left: 40px;
-    list-style-image: url(../list-icon/centos.svg);
+     padding-top: 20px;
+     padding-left: 40px;
+     list-style-image: url(../list-icon/centos.svg);
  }
 
  /*image judas1*/
@@ -303,7 +303,7 @@
  }
 
  #photos img:hover {
-     scale: 1.125;
+     transform: scale(1.125)
  }
 
  /*Contact-----------------------------------Contact---------------------------------Contact--------------------------------------------------------------------------------------*/
@@ -313,7 +313,6 @@
      justify-content: space-evenly;
      flex-direction: column;
      align-items: center;
-     background: url('../images/acting/menace2.webp') no-repeat center center/cover;
  }
 
  #contact-form {
@@ -563,7 +562,7 @@
      }
 
      #photos img:hover {
-         scale: 1.125;
+         transform: scale(1.125)
      }
 
      /*Contact 992px-----------------------------------Contact 992px---------------------------------Contact 992px--------------------------------------------------------------------------------------*/

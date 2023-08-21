@@ -185,7 +185,8 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
     - The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, and the menu options: Home page, Actor page, Costume page, Gallery page and Contact page and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the menu options are hidden until a burger icon is clicked which then brings up the menu options.
 
-      ![Navbar](../readme/documentation/supp-images/navbar.png)
+      ![Navbar1](../readme/documentation/supp-images/navbar1.png)
+      ![Navbar2](../readme/documentation/supp-images/navbar2.png)
     
 
 -   __F02 Landing Page image and call to action__
@@ -294,7 +295,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 ### Frameworks, Libraries & Programs Used
 
--   [Google Fonts:](https://fonts.google.com/) was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Oxygen' font into the style.css file which is used on all pages of the project.
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
@@ -309,8 +310,12 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
     - result for index.html
       ![HTML results index](documentation/validation-results/html-validation-result-1.png)
-    - result for menu.html
-      ![HTML results menu](documentation/validation-results/html-validation-result-2.png)
+    - result for actor.html
+      ![HTML results actor](documentation/validation-results/html-validation-result-2.png)
+    - result for costume.html
+      ![HTML results costume](documentation/validation-results/html-validation-result-3.png)
+    - result for gallery.html
+      ![HTML results gallery](documentation/validation-results/html-validation-result-3.png)
     - result for contact.html
       ![HTML results contact](documentation/validation-results/html-validation-result-3.png)
 
@@ -359,15 +364,15 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 ### How this site was deployed
 
 - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+- From the source section drop-down menu, select the main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 - Any changes pushed to the master branch will take effect on the live project
 
-  The live link can be found here - [THRIVE Juices and Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html) 
+  The live link can be found here - [THRIVE Juices and Smoothies](https://maryclaireteahan.github.io/adriennewalsh/) 
 
 ### How to clone the repository
 
-- Go to the https://github.com/elainebroche-dev/ms1-thrive repository on GitHub 
+- Go to the https://github.com/maryclaireteahan/adriennewalsh repository on GitHub 
 - Click the "Code" button to the right of the screen, click HTTPs and copy the link there
 - Open a GitBash terminal and navigate to the directory where you want to locate the clone
 - On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
@@ -375,6 +380,7 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 ## Credits 
 
 ### Content 
+- Design was loosely based off Hiro Kinagawa's site https://www.hirokanagawa.com/
 - All content was provided by Adrienne Walsh and based on her actual experiences as actor and costume designer.
 
 ### Code
@@ -382,13 +388,12 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Media 
-- The colours used were based on a citrus/pastel palette from this website : [Lily Bug Design - Colour Wall](https://www.lilybugdesign.co.nz/colour-wall) 
+- The colours used were based on colours found on the hero image. I was able to create a palette based off the image on this website : [Coolors](https://coolors.co/user/palettes) 
 - The icons in the header, footer were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
-
 - All images were provided by Adrienne Walsh.
 
     
 ### Acknowledgments
 
-- Thank you to my mentor Brian Macharia who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help select colours and images and well as resources to help with coding and testing.
+- Thank you to my mentor Lauren-Nicole who gave me very good advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help with coding and testing.

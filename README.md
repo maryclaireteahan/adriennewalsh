@@ -200,20 +200,23 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
 ### Lighthouse Performance
 
+Scores for mobile devices:
+
 ![Home mob](/readme/documentation/supp-images/performance/home-performance-mob.png)
-![Home desktop](/readme/documentation/supp-images/performance/home-performance-desktop.png)
-
 ![Actor mob](/readme/documentation/supp-images/performance/actor-performance-mob.png)
-![Actor desktop](/readme/documentation/supp-images/performance/actor-performance-desktop.png)
-
 ![Costume mob](/readme/documentation/supp-images/performance/costume-performance-mob.png)
-![Costume desktop](/readme/documentation/supp-images/performance/costume-performance-desktop.png)
-
 ![Gallery mob](/readme/documentation/supp-images/performance/gallery-performance-mob.png)
-![Gallery desktop](/readme/documentation/supp-images/performance/gallery-performance-desktop.png)
-
 ![Contact mob](/readme/documentation/supp-images/performance/contact-performance-mob.png)
+
+Scores for desktop devices:
+
+![Home desktop](/readme/documentation/supp-images/performance/home-performance-desk.png)
+![Actor desktop](/readme/documentation/supp-images/performance/actor-performance-desk.png)
+![Costume desktop](/readme/documentation/supp-images/performance/costume-performance-desktop.png)
+![Gallery desktop](/readme/documentation/supp-images/performance/gallery-performance-desktop.png)
 ![Contact desktop](/readme/documentation/supp-images/performance/contact-performance-desktop.png)
+
+
 
 ### Browser Compatibility
 

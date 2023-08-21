@@ -202,37 +202,21 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
     - result for contact.html
       ![HTML results contact](/readme/documentation/supp-images/contactval.png)
 
-    - Full validation results are available on github here :
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-index.pdf" target="_blank">HTML Results - Home Page</a>
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Actor Page</a>
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Costume Page</a>
-        
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-menu.pdf" target="_blank">HTML Results - Gallery Page</a>
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/html-validation-results-contact.pdf" target="_blank">HTML Results - Contact Page</a>
-
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for styles.css 
-      ![CSS results 1](documentation/validation-results/css-validation-result-1.png)
-      ![CSS results 2](documentation/validation-results/css-validation-result-2.png)
+      ![CSS results 1](/readme/documentation/supp-images/cssval.png)
+      ![CSS results 2](/readme/documentation/supp-images/csswarning.png)
 
-      The warnings are due to 1) import of the Google fonts and 2) a webkit extension for Safari support of the flip-card effect used on the home page.
+      The warning is due to import of the Google fonts.
 
-    - Full validation results are available on github here :
-
-        - <a href="https://github.com/elainebroche-dev/ms1-thrive/blob/master/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results - styles.css</a>
 
 ### Browser Compatibility
 
 - Testing has been carried out on the following browsers :
-    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
-    - Firefox Version 88.0.1 (64-bit)
-    - Edge Version 90.0.818.62 (Official build) (64-bit)
-    - Safari on macOS Catalina (Safari  Version 14.0.3)
+    - Chrome Version
+    - Firefox Version
+    - Edge Version 
     
 ### Test Cases and Results
 

@@ -19,7 +19,7 @@ If this section grows too long, you may want to split it off into a separate fil
 [View the live project here](https://maryclaireteahan.github.io/adriennewalsh/)
 
 
-Adrienne Walsh is a site that showcases Adrienne's acting and costume design skills, experience, and achievements. It is a way to present her to potential casting directors, agents, and producers who might be interested in casting her as an actor in theatre, film or radio or hiring her as costume designer, assistant or maintanence for their projects.
+Adrienne Walsh is a site that showcases Adrienne's acting and costume design skills, experience, and achievements. It is a way to present her to potential casting directors, agents, and producers who might be interested in casting her as an actor in theatre, film or radio or hiring her as costume designer, assistant or maintanence for their projects. The site will be used by professionals in the Arts and Entertainment sector, producers, directors, heads or departments, costume department in particular. This site will act as a resume which employers will use to review relevant experience, achievements and qualifications. Users, such as talent scouts, will be able to contact Adrienne via the site if they have a role or position they feel she would suit.
 
 ![Mockup](/readme/documentation/supp-images/resp-mockup.png)
 
@@ -198,6 +198,22 @@ Adrienne Walsh is a site that showcases Adrienne's acting and costume design ski
 
       The warning is due to import of the Google fonts.
 
+### Lighthouse Performance
+
+![Home mob](/readme/documentation/supp-images/performance/home-performance-mob.png)
+![Home desktop](/readme/documentation/supp-images/performance/home-performance-desktop.png)
+
+![Actor mob](/readme/documentation/supp-images/performance/actor-performance-mob.png)
+![Actor desktop](/readme/documentation/supp-images/performance/actor-performance-desktop.png)
+
+![Costume mob](/readme/documentation/supp-images/performance/costume-performance-mob.png)
+![Costume desktop](/readme/documentation/supp-images/performance/costume-performance-desktop.png)
+
+![Gallery mob](/readme/documentation/supp-images/performance/gallery-performance-mob.png)
+![Gallery desktop](/readme/documentation/supp-images/performance/gallery-performance-desktop.png)
+
+![Contact mob](/readme/documentation/supp-images/performance/contact-performance-mob.png)
+![Contact desktop](/readme/documentation/supp-images/performance/contact-performance-desktop.png)
 
 ### Browser Compatibility
 
